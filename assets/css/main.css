@@ -1,0 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #171717;
+  font-weight: 700;
+}
+
+.header {
+  border-bottom: 2px solid #CCCCCC;
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+.header__titulo {
+  font-size: 24px;
+  margin-left: 1%;
+}/*# sourceMappingURL=main.css.map */
