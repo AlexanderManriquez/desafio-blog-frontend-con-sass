@@ -1,0 +1,62 @@
+.novedades {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.novedades__titulo {
+    font-size: $title-size;
+    display: block;
+}
+
+.novedades__post {
+    width: 50%;
+}
+
+.novedadesPost__img {
+    width: 90%;
+    height: 314px;
+    border-radius: 20px;
+}
+
+.novedadesPost__fecha {
+    font-size: $font-size-m;
+    font-weight: 400;
+}
+
+.novedadesPost__titulo {
+    font-size: $font-size-xl;
+}
+
+.novedades__lateral {
+    width: 50%;
+    position: relative;
+    left: 800px;
+    top: -520px;
+}
+
+.subPost {
+    margin: -5px 0 -110px -30px;
+}
+
+.subPost__contenido {
+    display: block;
+    position: relative;
+    left: 230px;
+    bottom: 160px;
+}
+
+.subPost__fecha {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subPost__titulo {
+    font-size: 20px;
+}
+
+.subPost__img {
+    width: 30%;
+    height: 145px;
+    border-radius: 20px;
+}
