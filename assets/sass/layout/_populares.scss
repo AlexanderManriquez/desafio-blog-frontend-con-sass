@@ -1,0 +1,46 @@
+.populares {
+    border-top: 2px solid #CCCCCC;
+    height: 100vh;
+    position: relative;
+    &__titulo {
+        font-size: $title-size;
+        margin-left: 10%;
+    }
+    &__cuadricula {
+        margin: 50px;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__imagen {
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
+
+.popularesPost__fecha {
+    font-size: $font-size-s;
+    font-weight: 400;
+}
+
+.popularesPost__titulo {
+    font-size: $font-size-l;
+}
+
+.categorias {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    margin-right: 150px;
+    &__titulo {
+        font-size: $title-size;
+    }
+    &__columna {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
+    }
+}
