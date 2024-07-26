@@ -87,6 +87,42 @@ body {
   color: #171717;
 }
 
+.relacionados {
+  width: 90%;
+}
+.relacionados__titulo {
+  margin-left: 150px;
+}
+.relacionados__flex {
+  display: flex;
+  margin-left: 150px;
+}
+
+.card {
+  width: 30%;
+  margin: 10px 15px;
+}
+.card__img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.card__info {
+  display: flex;
+}
+.card__logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.card__autor {
+  font-weight: 500;
+  margin-left: 1%;
+}
+.card__fecha {
+  font-weight: 400;
+}
+
 .suscripcion {
   width: 90%;
   background-color: rgb(98, 147, 26);
@@ -227,6 +263,11 @@ body {
   border-radius: 20px;
 }
 
+.post__link {
+  text-decoration: none;
+  color: #171717;
+}
+
 .populares {
   border-top: 2px solid #CCCCCC;
   height: 100vh;
@@ -274,6 +315,50 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.titulo {
+  width: 90%;
+  margin: 0 auto;
+}
+.titulo__post {
+  font-size: 28px;
+}
+.titulo__info {
+  display: flex;
+}
+.titulo__logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.titulo__autor {
+  font-weight: 500;
+  margin-left: 1%;
+}
+.titulo__fecha {
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.post {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #BBB;
+  border-radius: 10px;
+}
+.post__texto {
+  width: 90%;
+  font-weight: 400;
+  margin: 5px auto;
+  padding: 5px 0;
+}
+.post__img {
+  width: 45%;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 .form {

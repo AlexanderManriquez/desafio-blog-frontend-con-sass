@@ -47,16 +47,21 @@
 }
 
 .subPost__fecha {
-    font-size: 16px;
+    font-size: $font-size-s;
     font-weight: 400;
 }
 
 .subPost__titulo {
-    font-size: 20px;
+    font-size: $font-size-l;
 }
 
 .subPost__img {
     width: 30%;
     height: 145px;
     border-radius: 20px;
+}
+
+.post__link {
+    text-decoration: none;
+    color: $font-color-primary;
 }
