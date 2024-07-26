@@ -1,0 +1,16 @@
+@import 'abstracts/variables';
+
+@import 'base/body';
+
+@import 'components/autor';
+@import 'components/categorias';
+@import 'components/relacionados';
+@import 'components/suscripcion';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/novedades';
+@import 'layout/populares';
+
+@import 'pages/post';
+@import 'pages/register';

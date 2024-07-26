@@ -1,0 +1,31 @@
+.footer {
+    border-top: 2px solid $border-color;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    &__contenedor {
+        width: 20%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    &__logo {
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;     
+    }
+    &__texto {
+        font-size: $font-size-xl;
+        margin: 0 2%;
+    }
+    &__creador {
+        width: 20%;
+    }
+    &__creadorTexto {
+        font-size: $font-size-l;
+        font-weight: 400;
+        margin-right: 5%;
+    }
+}
+

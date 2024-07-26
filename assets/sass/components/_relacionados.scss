@@ -1,0 +1,35 @@
+.relacionados {
+    width: 90%;
+    &__titulo {
+        margin-left: 150px;
+    }
+    &__flex {
+        display: flex;
+        margin-left: 150px;
+    }
+}
+
+.card {
+    width: 30%;
+    margin: 10px 15px;
+    &__img{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+    }
+    &__info {
+        display: flex;
+    }
+    &__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%; 
+    }
+    &__autor {
+        font-weight: 500;
+        margin-left: 1%;
+    }
+    &__fecha {
+        font-weight: 400;
+    }
+}

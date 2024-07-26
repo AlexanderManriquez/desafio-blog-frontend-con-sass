@@ -1,0 +1,23 @@
+.post__autor {
+    display: flex;
+    align-items: center;
+    &--logoGrande {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;    
+    }
+    &--textoGrande {
+        font-size: $font-size-xl;
+        font-weight: 500;   
+    }
+    &--logoPeque {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    &--textoPeque {
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 1%;
+    }
+}

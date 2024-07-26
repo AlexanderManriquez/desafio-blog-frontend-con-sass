@@ -1,0 +1,43 @@
+.titulo {
+    width: 90%;
+    margin: 0 auto;
+    &__post {
+        font-size: $title-size;
+    }
+    &__info {
+        display: flex;
+    }
+    &__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%; 
+    }
+    &__autor {
+        font-weight: 500;
+        margin-left: 1%;
+    }
+    &__fecha {
+        font-weight: 400;
+        margin-left: 50px;
+    }
+}
+
+.post {
+    width: 90%;
+    margin: 20px auto;
+    background-color: $bg-gray;
+    border-radius: 10px;
+    &__texto {
+        width: 90%;
+        font-weight: 400; 
+        margin: 5px auto; 
+        padding: 5px 0;  
+    }
+    &__img {
+        width: 45%;
+        height: 300px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+}

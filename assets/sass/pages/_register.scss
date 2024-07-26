@@ -1,0 +1,58 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    &__titulo {
+        font-size: $title-size;
+        font-weight: 400;
+    }
+    &__input {
+        width:33%;
+        height: 25px;
+        margin: 10px 0;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+    }
+    &__img {
+        width: 35px;
+        height: 25px;
+    }
+    &__button--submit {
+        width:33%;
+        height: 30px;
+        margin: 10px 0;
+        background-color: $bg-green-second;
+        text-align: center;
+        border: 1px solid $bg-green-second;
+        border-radius: 5px;
+    }
+    &__button--link {
+        text-decoration: none;
+        color: $font-color-secondary;
+    }
+    &__button--google {
+        width:33%;
+        height: 30px;
+        margin: 10px 0;
+        background-color: $font-color-secondary;
+        text-align: center;
+        border: 1px solid $border-color;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__button--link-g {
+        text-decoration: none;
+        color: $font-color-primary;
+    }
+    &__paragraph {
+        font-weight: 200;
+    }
+    &__link{
+        text-decoration: none;
+        color: $font-color-primary;
+        font-weight: 700;
+    }
+}
