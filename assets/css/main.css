@@ -87,9 +87,39 @@ body {
   color: #171717;
 }
 
+.suscripcion {
+  width: 90%;
+  background-color: rgb(98, 147, 26);
+  margin: 50px auto 0 auto;
+  border-radius: 20px;
+}
+.suscripcion__container {
+  margin-left: 50px;
+  padding: 20px;
+}
+.suscripcion__titulo {
+  width: 50%;
+  color: #FFFFFF;
+  font-size: 32px;
+}
+.suscripcion__input {
+  width: 40%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+}
+.suscripcion__boton {
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-left: 400px;
+  font-weight: bolder;
+  background-color: #BBB;
+  border: 1px solid #CCCCCC;
+}
+
 .footer {
   border-top: 2px solid #CCCCCC;
-  margin-top: 150px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -201,6 +231,8 @@ body {
   border-top: 2px solid #CCCCCC;
   height: 100vh;
   position: relative;
+  border-bottom: 2px solid #CCCCCC;
+  padding-bottom: 170px;
 }
 .populares__titulo {
   font-size: 28px;
@@ -242,4 +274,63 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.form__titulo {
+  font-size: 28px;
+  font-weight: 400;
+}
+.form__input {
+  width: 33%;
+  height: 25px;
+  margin: 10px 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+.form__img {
+  width: 35px;
+  height: 25px;
+}
+.form__button--submit {
+  width: 33%;
+  height: 30px;
+  margin: 10px 0;
+  background-color: rgb(98, 147, 26);
+  text-align: center;
+  border: 1px solid rgb(98, 147, 26);
+  border-radius: 5px;
+}
+.form__button--link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.form__button--google {
+  width: 33%;
+  height: 30px;
+  margin: 10px 0;
+  background-color: #FFFFFF;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__button--link-g {
+  text-decoration: none;
+  color: #171717;
+}
+.form__paragraph {
+  font-weight: 200;
+}
+.form__link {
+  text-decoration: none;
+  color: #171717;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */

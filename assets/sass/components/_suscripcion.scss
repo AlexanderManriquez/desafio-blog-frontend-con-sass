@@ -1,0 +1,29 @@
+.suscripcion {
+    width: 90%;
+    background-color: $bg-green-second;
+    margin: 50px auto 0 auto;
+    border-radius: 20px;
+    &__container {
+        margin-left: 50px;
+        padding: 20px;
+    }
+    &__titulo {
+        width: 50%;
+        color: $font-color-secondary;
+        font-size: $font-size-xxl;
+    }
+    &__input {
+        width: 40%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid $border-color;
+    }
+    &__boton {
+        padding: 10px 50px;
+        border-radius: 10px;
+        margin-left: 400px;
+        font-weight: bolder;
+        background-color: $bg-gray;
+        border: 1px solid $border-color;
+    }
+}
