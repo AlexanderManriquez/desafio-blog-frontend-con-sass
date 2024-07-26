@@ -4,6 +4,7 @@
 
 @import 'components/autor';
 @import 'components/categorias';
+@import 'components/relacionados';
 @import 'components/suscripcion';
 
 @import 'layout/footer';
@@ -11,4 +12,5 @@
 @import 'layout/novedades';
 @import 'layout/populares';
 
-@import 'pages/register'
+@import 'pages/post';
+@import 'pages/register';
