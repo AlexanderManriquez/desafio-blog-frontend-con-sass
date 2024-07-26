@@ -1,7 +1,9 @@
 .populares {
-    border-top: 2px solid #CCCCCC;
+    border-top: 2px solid $border-color;
     height: 100vh;
     position: relative;
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 170px;
     &__titulo {
         font-size: $title-size;
         margin-left: 10%;
